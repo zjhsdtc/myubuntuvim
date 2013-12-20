@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/cleantha/RubymineProjects/SeuCrawler'
+let g:netrw_dirhist_2='/'
+let g:netrw_dirhist_3='/home/cleantha/RubymineProjects/SeuCrawler'
+let g:netrw_dirhist_4='/home/cleantha/Documents/rubyTest'
+let g:netrw_dirhist_5='/home/cleantha/RubymineProjects/SeuCrawler'
+let g:netrw_dirhist_6='/home/cleantha/.vim/bundle/vim-snipmate/snippets'

@@ -1,0 +1,25 @@
+# Global snippets
+
+# for sinatra
+#snippet class
+#	class ${1:classname}
+#		${2}
+#	end
+
+snippet get
+	get "${1:route}" do
+		${2:controller}
+	end
+snippet post
+	get "${1:route}" do
+		${2:controller}
+	end
+# (c) holds no legal value ;)
+snippet c)i
+	Copyright `&enc[:2] == "utf" ? "©" : "(c)"` `strftime("%Y")` ${1:`g:snips_author`}. All Rights Reserved.${2}
+snippet date
+	`strftiime("%Y-%m-%d")`
+snippet ddatie
+	`strftime("%B %d, %Y")`
+snippet loremi
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
